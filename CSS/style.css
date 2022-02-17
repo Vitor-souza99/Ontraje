@@ -1,0 +1,227 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Prociono', Arial, serif;
+object-fit: cover; /*especifica como o conteúdo de um elemento substituído deve ser ajustado à caixa estabelecida pela altura e largura usadas.*/
+}
+
+header{
+position: relative;
+width: 100%;
+height: 155px;
+left: 0px;
+top: 0px;
+background: #F79032;
+opacity: 0.7;
+}
+
+.logo{
+position: absolute;
+width: 100%;
+height: 51px;
+left: 67px;
+top: 9px;
+max-width: 241px;
+font-family: Prociono;
+font-style: normal;
+font-weight: normal;
+font-size: 41px;
+line-height: 50px;
+color: #DAD5D1;
+text-shadow: 2px 2px black;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #DAD5D1;
+}
+
+.cep{
+position: absolute;
+width: 100%;
+max-width: 222px;
+height: 54px;
+left: 113px;
+top: 78px;
+font-family: Prociono;
+font-style: normal;
+font-weight: normal;
+font-size: 21.24px;
+line-height: 26px;
+color: #88897B;
+}
+
+.icon-cep{
+position: absolute;
+left: 5.02%;
+right: 93.07%;
+top: 55%;
+bottom: 97.11%;
+height: 40.63px;
+width: 100%;
+max-width: max-content;
+}
+
+.icon-cep img{
+    width: 100%;
+    height: 100%;
+}
+
+.box-cep{
+position: absolute;
+width: 100%;
+max-width: 103px;
+height: 18px;
+left: 72px;
+top: 129px;
+}
+.campo{
+    width: 100%;
+    max-width: 103px;
+    height: 24px;
+}
+
+.calcular{
+    position: absolute;
+    left: 105%;
+    top: 0;
+    height: 24px;
+}
+
+.box-search{
+    position: absolute;
+    width: 100%;
+    max-width: 593px;
+}
+
+.box-search input{
+    position: absolute;
+    width: 100%;
+    max-width: 593px;
+    height: 40px;
+    left: 422px;
+    top: 18px;
+    background: #FFFFFF;
+}
+
+.btn-search{
+position: absolute;
+width: 100%;
+max-width: 35px;
+height: 30px;
+left: 982px;
+top: 30px;
+}
+
+.sacola-lista{
+    position: absolute;
+    width: 100%;
+    max-width: 350px;
+    height: 42.76px;
+    left: 752px;
+    top: 89px;
+}
+
+.sacola{
+    position: absolute;
+    width: 100%;
+    max-width: 35px;
+}
+
+.sacola img{
+    position: absolute;
+    width: 100%;
+}
+
+.sacola p{
+    position: absolute;
+    left: 45px;
+    top: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.lista{
+    position: absolute;
+    width: 100%;
+    max-width: 35px;
+    left: 35%;
+}
+
+.lista img{
+    position: absolute;
+    width: 100%;
+}
+
+.lista p{
+    position: absolute;
+    left: 45px;
+    top: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.user{
+    position: absolute;
+    height:55px;
+    width: 100%;
+    max-width: 55px;
+    left: 88%;
+    top: 38px;
+}
+
+.user img{
+    position: absolute;
+    width: 100%;
+}
+
+.user p{
+    position: absolute;
+    top: 98%;
+    left: 3px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.col{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.categoria{
+    text-decoration: none;
+    color: #88897B;
+}
+
+.categoria:hover{
+    transition: all 1.3s;
+    text-decoration: underline;
+    color: orangered;
+}
+
+#dropdownMenuLink{
+    transition: all 1.3s;
+    border: none;
+    color: #88897B;
+    background-color:white;
+}
+
+
+#dropdownMenuLink:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+
+#dropdownMenuLink2{
+    transition: all 1.3s;
+    border: none;
+    color: black;
+    background-color:white;
+}
+
+#dropdownMenuLink2:hover{
+    text-decoration: underline;
+    
+}
+
